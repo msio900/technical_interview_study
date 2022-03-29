@@ -2,13 +2,22 @@
 
 ### Q01 좋은 feature란 무엇인가요. 이 feature의 성능을 판단하기 위한 방법에는 어떤 것이 있나요?
 
-* 좋은 feature는 데이터셋에서 자주 등장해야하며 분명하고 명확한 의미가 부여되어야 한다.
+<details>
+<summary>💡답변</summary>
+<div markdown="1">
 
-  참고 - [Machine Learning Crash Course - Representation: Qualities of Good Features](https://developers.google.com/machine-learning/crash-course/representation/qualities-of-good-features?hl=ko)
+> 좋은 feature는 데이터셋에서 자주 등장해야하며 분명하고 명확한 의미가 부여되어야 한다.
 
+참고 - [Machine Learning Crash Course - Representation: Qualities of Good Features](https://developers.google.com/machine-learning/crash-course/representation/qualities-of-good-features?hl=ko)
 
+</div>
+</details>
 
 ### Q02 "상관관계는 인과관계를 의미하지 않는다"라는 말이 있습니다. 설명해주실 수 있나요?
+
+<details>
+<summary>💡답변</summary>
+<div markdown="1">
 
 * **상관관계** : 어떤 변인 x의 값과 다른 변인 y의 값이 함께 변할 때, x와 y의 관계
 
@@ -16,21 +25,13 @@
 
   어떤 요인에 의해 x와 y의 값이 동시에 영향을 받아서 변할 수 있다. 영향을 받는 외부 요인을 함께 가진다면 x와 y는 상관관계일 수 있지만 이것으로 x와 y의 인과관계를 설명할 수는 없다.
 
+</div>
+</details>
 
 
 ### Q03 A/B 테스트의 장점과 단점, 그리고 단점의 경우 이를 해결하기 위한 방안에는 어떤 것이 있나요?
 
-<details>
-<summary>접기/펼치기 버튼</summary>
-<div markdown="1">
 
-|제목|내용|
-|--|--|
-|1|1|
-|2|10|
-
-</div>
-</details>
 
 ### Q04 각 고객의 웹 행동에 대하여 실시간으로 상호작용이 가능하다고 할 때에, 이에 적용 가능한 고객 행동 및 모델에 관한 이론을 알아봅시다.
 
