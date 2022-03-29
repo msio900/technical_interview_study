@@ -103,7 +103,7 @@ A/B 테스트의 장점으로 실제상황에서 고객의 실제 행돌을 측�
 >
 >   참고 : [스타트업테드님 퍼널 분석 | 주간 마케팅 1화](https://www.youtube.com/watch?v=vyYFU-B1X24&ab_channel=%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85%ED%85%8C%EB%93%9C%EB%8B%98)
 >
-> * **지표 추적** 
+> * **지표 추적** : 추가 예정
 >
 > * **유지율 분석**
 
@@ -116,10 +116,9 @@ A/B 테스트의 장점으로 실제상황에서 고객의 실제 행돌을 측�
 <details>
 <summary>💡답변</summary>
 <div markdown="1">
+암 발생 여부와 같이 예측력이 중요할 경우 `Random Forest`를 추천하고 대출 불가 원인과 같이 설명력이 중요할 경우 `Sequential Bayesian Model`을 추천하겠습니다.
 
-좋은 feature는 데이터셋에서 자주 등장해야하며 분명하고 명확한 의미가 부여되어야 합니다.
-
-> 참고 - [Machine Learning Crash Course - Representation: Qualities of Good Features](https://developers.google.com/machine-learning/crash-course/representation/qualities-of-good-features?hl=ko)
+> - 순차적 베이지안 모델(Sequential Bayesian Model)
 
 </div>
 </details>
