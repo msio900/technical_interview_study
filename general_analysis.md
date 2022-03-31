@@ -111,7 +111,7 @@ A/B 테스트의 장점으로 실제상황에서 고객의 실제 행돌을 측�
 </details>
 
 
-### Q05 고객이 원하는 예측모형을 두가지 종류로 만들었다. 하나는 예측력이 뛰어나지만 왜 그렇게 예측했는지를 설명하기 어려운 random forest 모형이고, 또다른 하나는 예측력은 다소 떨어지나 명확하게 왜 그런지를 설명할 수 있는 sequential bayesian 모형입니다.고객에게 어떤 모형을 추천하겠습니까?
+### Q05 고객이 원하는 예측모형을 두 가지 종류로 만들었다. 하나는 예측력이 뛰어나지만 왜 그렇게 예측했는지를 설명하기 어려운 random forest 모형이고, 또다른 하나는 예측력은 다소 떨어지나 명확하게 왜 그런지를 설명할 수 있는 sequential bayesian 모형입니다.고객에게 어떤 모형을 추천하겠습니까?
 
 <details>
 <summary>💡답변</summary>
@@ -141,10 +141,10 @@ A/B 테스트의 장점으로 실제상황에서 고객의 실제 행돌을 측�
 <details>
 <summary>💡답변</summary>
 <div markdown="1">
+과거 진행했던 프로젝트에서 한국고용정보원에서 제공하는 대졸자이동경로조사 데이터에서 1,570개의 feature중에 15개의 feature를 선택했던 적이 있습니다. feature selection과정에서 먼저 feature와 target간의 피어슨 상관계수를 확인 하였고, feature중 상관계수가 0.3이상 -0.3이하인 feature를 선택하였습니다. 이때 직업 예측 모델의 성능이 상당히 개선됨을 보았습니다.
 
-좋은 feature는 데이터셋에서 자주 등장해야하며 분명하고 명확한 의미가 부여되어야 합니다.
-
-> 참고 - [Machine Learning Crash Course - Representation: Qualities of Good Features](https://developers.google.com/machine-learning/crash-course/representation/qualities-of-good-features?hl=ko)
+> * 피어슨 상관계수
+> * 스피어만 상관계수
 
 </div>
 </details>
@@ -155,9 +155,22 @@ A/B 테스트의 장점으로 실제상황에서 고객의 실제 행돌을 측�
 <summary>💡답변</summary>
 <div markdown="1">
 
-좋은 feature는 데이터셋에서 자주 등장해야하며 분명하고 명확한 의미가 부여되어야 합니다.
+고차원 군집의 문제는 feature selection을 통해 줄여서 문제를 풀수 있습니다.
 
-> 참고 - [Machine Learning Crash Course - Representation: Qualities of Good Features](https://developers.google.com/machine-learning/crash-course/representation/qualities-of-good-features?hl=ko)
+> ![](./image/9_measures.png)
+>
+> * 데이터 유사도 측정하는 방법
+>   * 유클리디안 거리 (Euclidean Distance)
+>   * 코사인 유사도(Cosine Similarity)
+>   * 해밍 거리 (Hamming Distance)
+>   * 맨해튼 거리(Manhattan Distance)
+>   * 체비쇼프 거리(Chebyshev Distance)
+>   * 민코우스키 거리(Minkowski Distance)
+>   * 자카드 계수 (Jaccard Index)
+>   * 하버사인 공식(Haversine)
+>   * 소렌센 다이스 계수(Sørensen-Dice Index)
+>
+> 출처 - [anweh님의 티스로리 |[python] 데이터 유사성 측정방법](https://anweh.tistory.com/54)
 
 </div>
 </details>
